@@ -1,0 +1,38 @@
+{
+  "name": "grats-example-grafbase",
+  "version": "0.0.0",
+  "description": "Example server showcasing Grats used with Grafbase",
+  "main": "index.js",
+  "scripts": {
+    "dev": "grafbase dev",
+    "start": "grafbase start",
+    "grats": "grats",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captbaritone/grats.git"
+  },
+  "keywords": [
+    "graphql",
+    "grats",
+    "yoga",
+    "javascript",
+    "typescript",
+    "subscriptions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/captbaritone/grats/issues"
+  },
+  "homepage": "https://github.com/captbaritone/grats#readme",
+  "devDependencies": {
+    "@grafbase/sdk": "~0.17.0",
+    "@types/node": "^20.8.10",
+    "grats": "workspace:*"
+  },
+  "dependencies": {
+    "grafbase": "^0.56.0"
+  }
+}
